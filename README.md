@@ -11,3 +11,12 @@ TDD (Test-Driven Development) – You follow professional development practices,
 Quality & reliability focus – Emphasis on maintainable, bug-resistant, and scalable code
 
 User & admin separation – Shows clarity in handling multiple user roles and permissions
+
+## 🔐 Security Checklist
+- ✅ Never commit `.env` files
+- ✅ Use environment variables for all secrets
+- ✅ Keep `SUPABASE_SERVICE_ROLE_KEY` secure (server-side only)
+- ✅ Validate all inputs
+- ✅ Implement rate limiting
+- ✅ Use HTTPS in production
+
